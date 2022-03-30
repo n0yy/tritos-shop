@@ -8,7 +8,7 @@ import { Fragment } from "react";
 export default function Navbar() {
   return (
     <>
-      <nav className="fixed top-0 w-full bg-white/10 backdrop-blur-md shadow px-20 py-3 flex items-center justify-between">
+      <nav className="fixed top-0 w-full bg-white/30 backdrop-blur-md shadow-md z-50 px-20 py-3 flex items-center justify-between">
         {/* logo */}
         <h3 className="text-2xl font-bold flex items-center space-x-[0.10rem]">
           <Image src="/logo.svg" width="25" height="25" alt="Logo" />
