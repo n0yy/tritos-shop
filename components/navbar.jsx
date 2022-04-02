@@ -8,7 +8,7 @@ import { Fragment } from "react";
 export default function Navbar() {
   return (
     <>
-      <nav className="fixed top-0 w-full bg-white/30 backdrop-blur-md shadow-md z-50 px-20 py-3 flex items-center justify-between">
+      <nav className="fixed top-0 w-full bg-transfarent backdrop-blur-md shadow-md z-50 px-20 py-3 flex items-center justify-between">
         {/* logo */}
         <h3 className="text-2xl font-bold flex items-center space-x-[0.10rem]">
           <Image src="/logo.svg" width="25" height="25" alt="Logo" />
@@ -36,7 +36,7 @@ export default function Navbar() {
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <Menu.Items className="absolute top-7 bg-white p-3 shadow-md flex flex-col focus:outline-none rounded-md w-44 space-y-3">
+              <Menu.Items className="absolute top-7 bg-indigo-50 p-3 shadow-md flex flex-col focus:outline-none rounded-md w-44 space-y-3">
                 <Menu.Item>
                   {({ active }) => (
                     <a
@@ -68,7 +68,9 @@ export default function Navbar() {
           </Menu>
         </div>
         <div className="flex items-center space-x-5">
-          <Button to="/">Login</Button>
+          <Button to="/" sizing="px-6 py-2">
+            Login
+          </Button>
         </div>
       </nav>
     </>

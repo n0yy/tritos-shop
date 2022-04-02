@@ -1,7 +1,7 @@
-export default function Base({ children, title }) {
+export default function Base({ children }) {
   return (
     <>
-      <body className="antialiased bg-gray-50 h-[3000px]">{children}</body>
+      <body className="antialiased bg-gray-50">{children}</body>
     </>
   );
 }
