@@ -18,7 +18,7 @@ export default function Navbar() {
           <Link href="/">
             <a className="hover:text-gray-700">Home</a>
           </Link>
-          <Link href="/">
+          <Link href="/products">
             <a className="hover:text-gray-700">Products</a>
           </Link>
           {/* dropdown */}
