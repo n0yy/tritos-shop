@@ -36,14 +36,14 @@ export default function Navbar() {
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <Menu.Items className="absolute top-7 bg-indigo-50 p-3 shadow-md flex flex-col focus:outline-none rounded-md w-44 space-y-3">
+              <Menu.Items className="absolute top-7 bg-indigo-50 px-3 py-2 shadow-md flex flex-col focus:outline-none rounded-md w-44">
                 <Menu.Item>
                   {({ active }) => (
                     <a
                       className={`${
                         active &&
-                        "bg-blue-500 p-2 transition duration-200 rounded-md text-indigo-50"
-                      }`}
+                        "bg-blue-500 transition duration-200 rounded-md text-indigo-50"
+                      } p-2`}
                       href="/account-settings"
                     >
                       Men
@@ -55,11 +55,24 @@ export default function Navbar() {
                     <a
                       className={`${
                         active &&
-                        "bg-blue-500 rounded-md text-indigo-50 p-2 transition duration-200 "
-                      }`}
+                        "bg-blue-500 rounded-md text-indigo-50 transition duration-200 "
+                      } p-2`}
                       href="/account-settings"
                     >
                       Women
+                    </a>
+                  )}
+                </Menu.Item>
+                <Menu.Item>
+                  {({ active }) => (
+                    <a
+                      className={`${
+                        active &&
+                        "bg-blue-500 rounded-md text-indigo-50 transition duration-200 "
+                      } p-2`}
+                      href="/account-settings"
+                    >
+                      Unisex
                     </a>
                   )}
                 </Menu.Item>
