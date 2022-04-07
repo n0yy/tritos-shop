@@ -8,8 +8,8 @@ const SideBar = () => {
 
   return (
     <>
-      <div className="fixed flex flex-col space-y-5 min-h-screen pl-12 bg-stone-50 top-0 w-[20%] pt-10 shadow-md">
-        <h2 className="text-3xl font-bold text-gray-800 mb-5 underline decoration-indigo-500">
+      <div className="fixed flex flex-col space-y-5 min-h-screen pl-12 bg-stone-50 top-0 w-64 pt-10 shadow-md">
+        <h2 className="text-3xl font-bold text-gray-800 mb-3 underline decoration-indigo-500">
           All Products
         </h2>
         <h5 className="text-xl font-semibold text-gray-700">Filtering by :</h5>
@@ -115,13 +115,8 @@ const SideBar = () => {
           </div>
         </div>
         <Button to="/" sizing="w-28 h-8">
-          Terapkan
+          Tampilkan
         </Button>
-        <Link href="/">
-          <a className="absolute bottom-12">
-            <ShoppingBagIcon className="w-7" />
-          </a>
-        </Link>
       </div>
     </>
   );

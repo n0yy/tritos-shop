@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function CardProduct({ category, name, price }) {
   return (
-    <div className="h-[275px] rounded-lg w-48 shadow hover:scale-105 hover:shadow-lg cursor-pointer transition duration-200">
+    <div className="h-[275px] rounded-lg w-48 shadow hover:scale-[1.03] hover:shadow-lg cursor-pointer transition duration-200">
       <Image
         src="/sweater.png"
         width="200px"
@@ -17,7 +17,7 @@ export default function CardProduct({ category, name, price }) {
           <p className="text-md text-gray-800">{name}</p>
         </div>
 
-        <h5 className="text-gray-600">Rp {price}</h5>
+        <h5 className="text-gray-600 text-sm">Rp {price}</h5>
       </div>
     </div>
   );
