@@ -237,7 +237,7 @@ export default function Detail() {
             Tambah ke Keranjang
           </button>
           <button className="w-full rounded-full uppercase text-sm text-indigo-600 border bg-indigo-300 text-center py-2">
-            Checkout
+            Pesan Sekarang
           </button>
         </div>
 
