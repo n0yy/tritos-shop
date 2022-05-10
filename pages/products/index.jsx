@@ -21,12 +21,12 @@ const Products = () => {
       {/* Main */}
       <div className="flex">
         {/* sidebar */}
-        <div className="hidden z-50 sm:block w-1/5 mt-10">
+        <div className="hidden z-50 md:block w-1/5 mt-10">
           <SideBar />
         </div>
 
         <button
-          className="fixed top-4 right-4 z-30 w-10 h-10 flex sm:hidden items-center justify-center rounded-full bg-gray-100"
+          className="fixed top-4 right-4 z-30 w-10 h-10 flex md:hidden items-center justify-center rounded-full bg-gray-100"
           onClick={() => setIsOpen(true)}
         >
           <MenuIcon className="w-7 text-gray-600" />
@@ -44,7 +44,7 @@ const Products = () => {
           </button>
         </Dialog>
 
-        <div className="gap-5 sm:gap-10 mt-10 p-0 sm:pl-10 flex justify-center w-full flex-wrap">
+        <div className="gap-5 sm:gap-10 mt-10 p-0 md:pl-20 lg:pl-10 flex justify-center w-full flex-wrap">
           <CardProduct name="T-Shirt" category="Unisex" price="75000" />
           <CardProduct name="T-Shirt" category="Unisex" price="75000" />
           <CardProduct name="T-Shirt" category="Unisex" price="75000" />
