@@ -18,7 +18,7 @@ const SideBar = () => {
             onClick={(e) => setFilter(!filter)}
             className={`${
               filter && "text-indigo-400"
-            } relative text-left text-gray-500`}
+            } relative text-left text-gray-500 hover:text-indigo-300 transition duration-200`}
           >
             <div
               className={`${
@@ -31,7 +31,7 @@ const SideBar = () => {
             onClick={() => setFilter(!filter)}
             className={`${
               filter && "text-indigo-400"
-            } relative text-left text-gray-500`}
+            } relative text-left text-gray-500 hover:text-indigo-300 transition duration-200`}
           >
             <div
               className={`${
@@ -44,7 +44,7 @@ const SideBar = () => {
             onClick={() => setFilter(!filter)}
             className={`${
               filter && "text-indigo-400"
-            } relative text-left text-gray-500`}
+            } relative text-left text-gray-500 hover:text-indigo-300 transition duration-200`}
           >
             <div
               className={`${
@@ -57,7 +57,7 @@ const SideBar = () => {
             onClick={() => setFilter(!filter)}
             className={`${
               filter && "text-indigo-400"
-            } relative text-left text-gray-500`}
+            } relative text-left text-gray-500 hover:text-indigo-300 transition duration-200`}
           >
             <div
               className={`${
@@ -70,7 +70,7 @@ const SideBar = () => {
             onClick={() => setFilter(!filter)}
             className={`${
               filter && "text-indigo-400"
-            } relative text-left text-gray-500`}
+            } relative text-left text-gray-500 hover:text-indigo-300 transition duration-200`}
           >
             <div
               className={`${

@@ -21,7 +21,7 @@ const Products = () => {
       {/* Main */}
       <div className="flex">
         {/* sidebar */}
-        <div className="hidden sm:block w-1/5 mt-10">
+        <div className="hidden z-50 sm:block w-1/5 mt-10">
           <SideBar />
         </div>
 
